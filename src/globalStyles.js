@@ -3,7 +3,7 @@ import { light, dark } from "./data/GlobalData";
 
 const GlobalStyle = createGlobalStyle`
 *{
-  box-sizing: border=box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
@@ -23,13 +23,13 @@ export const Container = styled.div`
 export const Section = styled.div`
   color: white;
   padding: 160px;
-  background: ${({ inverse }) => (inverse ? dark : light)};
+  background: ${({ inverse }) => (inverse ? light : dark)};
 `;
 
 export const MainHeading = styled.h1`
   font-size: clamp(2.3rem, 6vw, 4.4rem);
   margin-bottom: 2rem;
-  color: ${({ inverse }) => (inverse ? light : dark)};
+  color: ${({ inverse }) => (inverse ? dark : light)};
   width: 100%;
   letter-spacing: 4px;
   text-align: center;

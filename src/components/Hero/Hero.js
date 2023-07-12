@@ -14,9 +14,7 @@ const Hero = () => {
     <>
       <HeroSection ref={ref} id="hero">
         <Container>
-          <MainHeading inverse>
-            Find the best events & meetups with us
-          </MainHeading>
+          <MainHeading>Find the best events & meetups with us</MainHeading>
           <HeroText>
             We help you find all of your favorites events in one place
           </HeroText>
