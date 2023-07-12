@@ -32,7 +32,7 @@ const heroOne = {
 
 const heroTwo = {
   reverse: false,
-  inverse: false,
+  inverse: true,
   topLine: {
     text: "Paid",
     location: "Hard Rock Stadium, Miami, Florida",
@@ -65,7 +65,7 @@ const heroThree = {
 
 const heroFour = {
   reverse: false,
-  inverse: false,
+  inverse: true,
   topLine: {
     location: "Augusta National Gold Club, Georgia",
     text: "Paid",
